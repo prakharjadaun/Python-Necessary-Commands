@@ -16,6 +16,10 @@ pip --version
 ```
 python -m pip install pip==version_name
 ```
+- To resolve conflicts when installing requirements.txt using pip
+```
+!pip install -r requirements.txt --use-deprecated=legacy-resolver
+```
 ## Conda
 
 - To create a virtual environment using conda (you can use any version of python)
