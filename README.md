@@ -1,5 +1,6 @@
-# **ML-Project-Helper**
-Repo contains several commands which can be helpful in ML projects.
+# **Python Necessary Commands**
+
+This repository contains several commands which can be helpful in ML projects and you should know.
 
 ## Pip
 
