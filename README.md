@@ -1,6 +1,20 @@
 # **ML-Project-Helper**
 Repo contains several commands which can be helpful in ML projects.
 
+## Pip
+
+- To upgrade pip
+```
+python -m pip install --upgrade pip
+```
+- To check the version of pip
+```
+pip --version
+```
+- To downgrade the pip version
+```
+python -m pip install pip==version_name
+```
 ## Conda
 
 - To create a virtual environment using conda (you can use any version of python)
