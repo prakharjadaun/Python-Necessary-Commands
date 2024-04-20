@@ -34,7 +34,36 @@ conda activate venv/
 ```
 python -m pip install --upgrade --force-reinstall pip
 ```
+## Keras
 
+- To save keras model
+```
+# after training
+model.save("model_name.h5")
+```
+- To load the keras model
+```
+model = keras.models.load_model("model_name.h5")
+```
+- To save keras model's weight
+```
+model.save_weights("model_weights.h5")
+```
+- To load the weights
+```
+model.load_weights("model_weights.h5)
+```
+- To save the architecture as json
+```
+json_string = model.to_json()
+with open("filename","w") as f:
+  f.write(json_string)
+```
+- To load the json file:
+```
+with open("filename","r") as f:
+  loaded_json_string = f.read();
+```
 ## HuggingFace
 
 - Remove downloaded Tensorflow and Pytorch(HuggingFace) Models ([source](https://stackoverflow.com/questions/65037368/remove-downloaded-tensorflow-and-pytorchhugging-face-models))
