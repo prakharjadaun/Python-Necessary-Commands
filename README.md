@@ -16,6 +16,10 @@ pip --version
 ```
 python -m pip install pip==version_name
 ```
+- To get all the packages installed, along with their specific version and location.
+```
+pip list
+```
 - To resolve conflicts when installing requirements.txt using pip
 ```
 !pip install -r requirements.txt --use-deprecated=legacy-resolver
